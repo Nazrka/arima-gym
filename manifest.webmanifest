@@ -1,7 +1,8 @@
 {
+  "id": "/arima-gym/",
   "name": "Arima Gym",
   "short_name": "Arima Gym",
-  "description": "Тренировки дома, на турниках и в зале с Аримой Каной",
+  "description": "Тренировки дома, на турниках и в зале, питание и добавки. С Аримой Каной.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -9,24 +10,44 @@
   "background_color": "#1c2352",
   "theme_color": "#1c2352",
   "lang": "ru",
+  "dir": "ltr",
+  "categories": [
+    "health",
+    "fitness",
+    "sports"
+  ],
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-1024.png",
-      "sizes": "1024x1024",
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Питание",
+      "short_name": "Питание",
+      "url": "./index.html",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
